@@ -12,9 +12,9 @@ https://www.tensorflow.org/install/source). But of course, there were some cavea
 
 ### Challenges
 + Fedora 30 ships with gcc9. but the latest version of CUDA is only compatible with gcc up to gcc8.   Luckily, I found a package called `cuda-gcc` supplied by the [negativo17](https://negativo17.org/) repository. This is a gcc package that is compatible with CUDA, and can be co-installed on Fedora 30 with the existing gcc9.  
-+ The 'Bazel` compiler installed via `dnf` had a newer version that is not compatible with the tensorflow repoository. I had to manually install an older version from the Bazel official page. I mostly followed the intructions at this [page](https://docs.bazel.build/versions/master/install-compile-sourcehtml) 
++ The `Bazel` compiler installed via `dnf` had a newer version that is not compatible with tensorflow. I had to manually install an older version from the Bazel official page. I mostly followed the intructions at this [page](https://docs.bazel.build/versions/master/install-compile-source.html)
 + Building the TensforFlow wheel took 16 hours.
-+ I had to connect remotely to my PC (which was used for building the wheel). To avoid disconnections and restarting the build each time, I learn to use the `tmux` tool. The `tmux` tool is very useful for working with a remote PC with unstable connection, or for resuming the work from various locations/laptops. Another tool that serves the same purpose is `screen`.  
++ I had to connect remotely to my Desktop PC (which was used for building the wheel). To avoid disconnections and restarting the build each time after a disconnect, I learnt to use the `tmux` tool. The `tmux` tool is an indespensible tool for working with a remote PC with an unstable connection. It's also useful for resuming a remote session from various locations/laptops. Another tool that serves the same purpose is `screen`.  
 *Living on the bleeding edge of the SW has its price*
 
 ### Wheel Specs
