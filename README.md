@@ -24,4 +24,6 @@ https://www.tensorflow.org/install/source). But of course, there were some cavea
 + CUDA 10.1
 + CuDNN 7.4.2 & NCCL 2.4.7
 
+### Download
+The WHL file can be downloaded from [here](https://mega.nz/#!DFlC2SiR!_KfsXOspwDDje7a1C8mawhGxz2ObUwW5Mukfhn32Mb8)
 
